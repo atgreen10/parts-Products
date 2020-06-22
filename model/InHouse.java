@@ -4,8 +4,8 @@ public class InHouse extends Part {
 
     private int machineID;
 
-    public InHouse(int partID, String partName, double price, int stock, int max, int min, int machineID) {
-        super(partID, partName, price, stock, max, min);
+    public InHouse(int partID, String partName, double partPrice, int partStock, int partMax, int partMin, int machineID) {
+        super(partID, partName, partPrice, partStock, partMax, partMin);
         this.machineID = machineID;
     }
 
@@ -16,4 +16,3 @@ public class InHouse extends Part {
     public void setCompanyName(int machineID) {
         this.machineID = machineID;
     }
-}
